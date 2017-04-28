@@ -14,4 +14,4 @@ docker-compose up >dockerlogfile.log 2>&1 &
 cd $WD
 sleep 30
 docker ps -a
-mvn clean install -DskipITs=false -Dmaven.test.failure.ignore=false
+mvn clean install deploy -P release -s settings.xml -DskipITs=true -Dmaven.test.failure.ignore=true
