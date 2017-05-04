@@ -14,4 +14,8 @@ docker-compose up >dockerlogfile.log 2>&1 &
 cd $WD
 sleep 30
 docker ps -a
+
+# -P release < will tell consider release goal > 
 mvn clean install deploy -P release -s settings.xml -DskipITs=true -Dmaven.test.failure.ignore=true
+
+
