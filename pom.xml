@@ -295,7 +295,7 @@
     </build>
     <distributionManagement>
         <snapshotRepository>
-            <repositoryId>snapshots</repositoryId>
+            <id>snapshots</id>
             <url>https://nexus.hyperledger.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
