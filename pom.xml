@@ -295,7 +295,7 @@
     </build>
     <distributionManagement>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>hyperledger-bin-publish</id>
             <url>https://nexus.hyperledger.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
@@ -311,7 +311,7 @@
                         <extensions>true</extensions>
                         <configuration>
                             <serverId>hyperledger-bin-publish</serverId>
-                            <nexusUrl>https://nexus.hyperledger.org/</nexusUrl>
+                            <nexusUrl>https://nexus.hyperledger.org/content/repositories/snapshots</nexusUrl>
                             <autoReleaseAfterClose>false</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
