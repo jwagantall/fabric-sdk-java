@@ -311,9 +311,8 @@
                         <extensions>true</extensions>
                         <configuration>
                             <serverId>hyperledger-bin-publish</serverId>
-                            <repositoryUrl>https://nexus.hyperledger.org/service/local/repositories/snapshots/content-compressed</repositoryUrl>
-                            <file>archives.zip</file>
-                            <repositoryPath>$SILO</repositoryPath> 
+                            <nexusUrl>https://nexus.hyperledger.org/</nexusUrl>
+                            <autoReleaseAfterClose>false</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
                     <plugin>
