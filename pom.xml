@@ -311,7 +311,6 @@
             <url>http://10.30.65.251:8081/${staging.path}</url>
         </repository>
     </repositories>
-         
     <distributionManagement>
         <site>
             <id>hyperledger-site</id>
@@ -341,7 +340,7 @@
                         <configuration>
                             <serverId>hyperledger-staging</serverId>
                             <stagingProfileId>${hyp.nexus.staging.profile-id}</stagingProfileId>
-                            <nexusUrl>https://http://10.30.65.251:8081/${hyp.nexus.host}/</nexusUrl>
+                            <nexusUrl>http://10.30.65.251:8081/${staging.path}</nexusUrl>
                         </configuration>
                     </plugin>
                     <plugin>
