@@ -1,7 +1,7 @@
 <settings>
     <servers>
         <server>
-            <id>hyperledger-bin-publish</id>
+            <id>hyperledger-staging</id>
             <username>${env.OSSRH_USER_TOKEN}</username>
             <password>${env.OSSRH_PWD_TOKEN}</password>
         </server>
