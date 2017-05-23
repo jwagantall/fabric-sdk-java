@@ -295,7 +295,7 @@
     </build>
     <distributionManagement>
         <snapshotRepository>
-            <id>hyperledger-bin-publish</id>
+            <id>hyperledger-snapshots</id>
             <url>https://nexus.hyperledger.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
@@ -310,8 +310,8 @@
                         <version>1.6.7</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <serverId>hyperledger-bin-publish</serverId>
-                            <nexusUrl>https://nexus.hyperledger.org/content/repositories/snapshots</nexusUrl>
+                            <serverId>hyperledger-staging</serverId>
+                            <nexusUrl>https://nexus.hyperledger.org/content/repositories/staging</nexusUrl>
                             <autoReleaseAfterClose>false</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
