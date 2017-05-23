@@ -339,8 +339,7 @@
                         <extensions>true</extensions>
                         <configuration>
                             <serverId>hyperledger-staging</serverId>
-                            <stagingProfileId>${hyp.nexus.staging.profile-id}</stagingProfileId>
-                            <nexusUrl>http://10.30.65.251:8081/</nexusUrl>
+                            <nexusUrl>https://nexus.hyperledger.org/</nexusUrl>
                         </configuration>
                     </plugin>
                     <plugin>
