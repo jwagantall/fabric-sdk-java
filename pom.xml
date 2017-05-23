@@ -317,7 +317,7 @@
                         <version>1.6.7</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <serverId>hyperledger-bin-publish</serverId>
+                            <serverId>hyperledger-staging</serverId>
                             <nexusUrl>https://nexus.hyperledger.org/</nexusUrl>
                             <autoReleaseAfterClose>false</autoReleaseAfterClose>
                         </configuration>
