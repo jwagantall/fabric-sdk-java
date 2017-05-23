@@ -311,7 +311,6 @@
             <url>http://10.30.65.251:8081/${staging.path}</url>
         </repository>
     </repositories>
-         
     <distributionManagement>
         <site>
             <id>hyperledger-site</id>
