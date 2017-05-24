@@ -16,6 +16,6 @@ sleep 30
 docker ps -a
 
 # -P release < will tell consider release goal > 
-mvn clean install deploy -P release -s settings.xml -DskipITs=true -Dmaven.test.failure.ignore=true
+#mvn clean install deploy -P release -s settings.xml -DskipITs=true -Dmaven.test.failure.ignore=true
 
 
